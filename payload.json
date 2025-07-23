@@ -1,0 +1,11 @@
+{
+    "type": "INSERT",
+    "record": {
+      "id": "dummy",
+      "thread_id": "5c77aed9-b083-4bb0-b65a-9be5e5a10d36",
+      "sender_id": "107f6ee2-65b3-425c-99fb-0fdac12e9c31",
+      "body": "manual test",
+      "created_at": "2025-07-22T00:00:00Z"
+    }
+  }
+  

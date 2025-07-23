@@ -7,18 +7,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "gen:types": "supabase gen types typescript --project-id vpalurcmloxtjrighwxq --schema public > types/supabase.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.10.0",
+    "@supabase/supabase-js": "^2.52.0",
     "autoprefixer": "^10.4.21",
     "next": "^15.4.2",
     "postcss": "^8.5.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "stripe": "^18.3.0",
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
